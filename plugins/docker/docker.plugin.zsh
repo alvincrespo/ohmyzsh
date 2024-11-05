@@ -34,6 +34,7 @@ alias dvls='docker volume ls'
 alias dvprune='docker volume prune'
 alias dxc='docker container exec'
 alias dxcit='docker container exec -it'
+alias dspru='docker system prune -a'
 
 if (( ! $+commands[docker] )); then
   return
